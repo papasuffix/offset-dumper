@@ -12,4 +12,5 @@ Easy! This simple project provides you with example usage of the **Zydis Disassm
 image
 
 ### Potential
-image
+![Potenial](./potenial1.png)
+![Potenial](./potenial2.png)
