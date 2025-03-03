@@ -16,4 +16,4 @@ This is only as good as your dump, if the dump you provide this offset grabber d
 
 ### Potential
 ![Potential](./potential1.png)
-![Potential](./potenial2.png)
+![Potential](./potential2.png)
