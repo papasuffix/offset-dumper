@@ -8,6 +8,9 @@ This is a base designed to teach you how to grab offsets automatically. This pro
 
 Easy! This simple project provides you with example usage of the **Zydis Disassmbler** and shows you how to use it to your advantage. Not only that but I've given (and removed) some custom functions to use with it. You will have to create your own implementations of things such as GetPrologue, GetEpilogue but its not hard I promise.
 
+### Note
+This is only as good as your dump, if the dump you provide this offset grabber doesn't have the pages decrypted it won't be able to get them.
+
 ### Preview
 image
 
