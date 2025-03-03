@@ -12,8 +12,8 @@ Easy! This simple project provides you with example usage of the **Zydis Disassm
 This is only as good as your dump, if the dump you provide this offset grabber doesn't have the pages decrypted it won't be able to get them.
 
 ### Preview
-image
+![Preview](./preview)
 
 ### Potential
-![Potenial](./potential1.png)
-![Potenial](./potenial2.png)
+![Potential](./potential1.png)
+![Potential](./potenial2.png)
