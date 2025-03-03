@@ -12,7 +12,7 @@ Easy! This simple project provides you with example usage of the **Zydis Disassm
 This is only as good as your dump, if the dump you provide this offset grabber doesn't have the pages decrypted it won't be able to get them.
 
 ### Preview
-![Preview](./preview)
+![Preview](./preview.png)
 
 ### Potential
 ![Potential](./potential1.png)
