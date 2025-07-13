@@ -342,7 +342,7 @@ int main(int argc, char* argv[])
     {
         const auto script_start_ref = xrefs[0] /*cross reference to the "Script Start" string*/ - 0x3D /*offset + leeway to give room for potential changes to code*/;
 
-        // we find the next instruction of a specific type (mnemonic) from an address + index. 1 gets the first, 2 the seconds, etc
+        // we find the next instruction of a specific type (mnemonic) from an address + index. 0 gets the first, 1 the second, etc
         auto decrypt_global_state_call = find_next(script_start_ref, ZYDIS_MNEMONIC_CALL, 1);
         // resolve_data_ref is for getting the address referenced in one of these instructions
         uintptr_t decrypt_gs = rebase(resolve_data_ref(decrypt_global_state_call, 0));
